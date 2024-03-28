@@ -1,15 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Homepage from './pages/Homepage';
+import './App.css';
 
+import FinalIntro from './components/FinalIntro';
+import Footer from './components/Footer';
+import LineSteps from './components/LineSteps';
+import Navbar from './components/Navbar';
+import ShortIntro from './components/ShortIntro';
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        {/* Add more routes as needed */}
-      </Routes>
-    </Router>
+    <div>
+     <Navbar/>
+     <ShortIntro/>
+     <LineSteps/>
+     <FinalIntro/>
+     <Footer/>
+    </div>
   );
 }
 
