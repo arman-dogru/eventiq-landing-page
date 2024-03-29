@@ -32,10 +32,10 @@ const Navbar = () => {
       </div>
       <div className={isMobile ? "navbar-mobile-menu" : "navbar-menu"}>
         <ul>
-          <li onClick={() => setIsMobile(!isMobile)}>Home Page</li>
-          <li onClick={() => setIsMobile(!isMobile)}>Classic</li>
-          <li onClick={() => setIsMobile(!isMobile)}>Professional</li>
-          <li onClick={() => setIsMobile(!isMobile)}>FAQ</li>
+        <li id="Hover-Nav" >Home Page</li>
+        <li id="Hover-Nav" >Classic</li>
+        <li id="Hover-Nav" >Professional</li>
+        <li id="Hover-Nav" >About Us</li>
         </ul>
       </div>
       <button className="navbar-button">Sign In</button>
